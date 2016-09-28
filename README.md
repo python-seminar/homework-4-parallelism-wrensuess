@@ -8,3 +8,7 @@ the multiprocessing wasn't that much faster than doing calculations in serial. I
 two cores, so the improvement in speed could only be up to a factor of two. In practice, it's less than a factor of two because of 
 increased overhead when multiprocessing. The two multiprocessing methods had nearly identical efficiencies for me. I expect that this has
 to do with the fact that I was running both methods with four "cores" despite the fact that I only have two cores.
+
+In order to run this notebook start-to-finish and reproduce the plot, the grader should be running an ipython cluster. This can be started
+via the command line using "ipcluster start -n 4"
+
